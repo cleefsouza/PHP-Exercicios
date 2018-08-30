@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Exercicio 008</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+	<h3>Programação Dinâmica para Web</h3>
+    <p>8) Uma agência bancária possui dois tipos de investimentos: Poupança (3%) e Fundos de Renda Fixa (4%).<br>
+        Faça uma função que receba o tipo de investimento e o seu valor a partir de um formulário HTML,<br>
+        calculando em seguida seu valor corrigido, de acordo com o tipo de investimento.;</p>
+	<fieldset>
+		<legend>Exercicio 008 - Calcular Investimento</legend>
+		<form action="ex008.php" method="POST">
+			<label>Investimento:</label>
+            <br>
+            <select name="investimento">
+                <option value="1">Poupança (3%)</option>
+                <option value="2">Fundos de Renda Fixa (4%)</option>
+            </select>
+            <br>
+            <label>Valor:</label>
+            <br>
+            <input type="text" name="valor">
+			<br><br>
+			<input type="submit" value="Calcular">
+		</form>
+	</fieldset>
+</body>
+
+</html>
