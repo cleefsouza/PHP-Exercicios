@@ -1,0 +1,120 @@
+FOPEN: Abre um arquivo e retorna um identificador;
+
+Exemplo: fopen(string file, string mode);
+
+Parâmetros
+string file (String que identifica o nome do arquivo)
+string modo (Descreve a forma de aberturado arquivo (“r” –read, “w” –write, “a” –append))
+
+----------------------------------------------------
+
+FEOF: Testa se um identificador de arquivo está no fim (End Of File);
+
+Exemplo: feof(identificador);
+
+Parâmetros
+identificador (Identificador retornado pela função fopen)
+
+----------------------------------------------------
+
+FGETS: Lê uma linha de um arquivo;
+
+Exemplo: fgets(identificador, tamanho);
+
+Parâmetros
+identificador (Identificador retornado pela função fopen)
+tamanho (Quantidade em bytes a serem retornados da leitura (opcional))
+
+----------------------------------------------------
+
+FCLOSE: Fecha o arquivo aberto, apontado pelo identificador de arquivo;
+
+Exemplo: fclose(identificador);
+
+Parâmetros
+identificador (Identificador retornado pela função fopen)
+
+----------------------------------------------------
+
+FWRITE: Grava uma string no arquivo apontado pelo identificador;
+
+Exemplo: fwrite(identificador, conteudo);
+
+Parâmetros
+identificador (Identificador retornado pela função fopen)
+counteudo (String a ser escrita no arquivo)
+
+----------------------------------------------------
+
+FILE_PUT_CONTENTS: Grava uma string em um arquivo;
+
+Exemplo: file_put_contents(arquivo, conteudo);
+
+Parâmetros
+arquivo (Arquivo a ser aberto)
+conteudo (Novo conteúdo)
+
+----------------------------------------------------
+
+FILE_GET_CONTENTS: Lê o conteúdo de um arquivo;
+
+Exemplo: file_get_contents(arquivo);
+
+Parâmetros
+arquivo (Arquivo a ser aberto)
+
+----------------------------------------------------
+
+FILE: Lê um arquivo e retorna um array com seu conteúdo;
+
+Exemplo: file(arquivo);
+
+Parâmetros
+arquivo (Arquivo a ser aberto para leitura)
+
+----------------------------------------------------
+
+COPY: Copia o conteúdo de um arquivo e cola em outro arquivo;
+
+Exemplo: copy(arquivo_origem, arquivo_destino);
+
+Parâmetros
+arquivo_origem (Arquivo a ser copiado)
+arquivo_destino (Arquivo destino)
+
+----------------------------------------------------
+
+RENAME: Renomeia um arquivo ou um diretório;
+
+Exemplo: rename(nome_atual, novo_nome);
+
+Parâmetros
+nome_atual (Arquivo ou diretório a ser renomeado)
+novo_nome (Novo nome do arquivo ou diretório)
+
+----------------------------------------------------
+
+UNLINK: Remove um arquivo passado como parâmetro;
+
+Exemplo: unlink(arquivo);
+
+Parâmetros
+arquivo (Arquivo a ser excluído)
+
+----------------------------------------------------
+
+FILE_EXISTS: Verifica a existência de um arquivo ou de um diretório;
+
+Exemplo: file_exists(arquivo);
+
+Parâmetros
+arquivo (Nome ou localização de um arquivo ou diretório)
+
+----------------------------------------------------
+
+IS_FILE: Verifica se o parâmetro corresponde a um arquivo ou não;
+
+Exemplo: is_file(arquivo);
+
+Parâmetros
+arquivo (Nome ou localização de um dado)
