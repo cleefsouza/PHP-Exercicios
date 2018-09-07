@@ -1,2 +1,2 @@
-# PHP Exercises
-Practices with PHP - Discipline: Dynamic Programming for Web.
+# PHP Exercícios
+Exercícios com PHP - Disciplina: Programação Dinâmica para Web.
