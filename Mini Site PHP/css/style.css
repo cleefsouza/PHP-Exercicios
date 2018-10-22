@@ -122,19 +122,6 @@ img {
     max-width: 25vh;
 }
 
-.solas a {
-    padding: 10px;
-    margin-bottom: 3vh;
-    border: 2px solid #BD965A;
-    border-radius: 15px;
-    text-decoration: none;
-    color: #BD965A;
-}
-
-.solas a:hover {
-    opacity: 0.5;
-}
-
 
 /*Formulario*/
 
@@ -199,13 +186,6 @@ textarea {
 
 .formulario button[type=submit]:hover {
     opacity: 0.9;
-}
-
-
-/*Avaliação*/
-
-.avaliacao {
-    background-color: #232222;
 }
 
 
@@ -276,74 +256,6 @@ textarea {
 }
 
 
-/*More-solas*/
-
-.more-solas {
-    flex-direction: column;
-}
-
-.more-solas-1,
-.more-solas-2,
-.more-solas-3,
-.more-solas-4,
-.more-solas-5 {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10vh;
-}
-
-.more-solas-1 img,
-.more-solas-2 img,
-.more-solas-3 img,
-.more-solas-4 img,
-.more-solas-5 img {
-    width: 30vh;
-    flex: 1;
-    margin: 0 16vh;
-    align-self: center;
-}
-
-.more-solas-1 p,
-.more-solas-2 p,
-.more-solas-3 p,
-.more-solas-4 p,
-.more-solas-5 p {
-    flex: 2;
-    font-size: 3.5vh;
-    line-height: 1.4em;
-    text-align: justify;
-}
-
-.more-solas-1 p>label,
-.more-solas-2 p>label,
-.more-solas-3 p>label,
-.more-solas-4 p>label,
-.more-solas-5 p>label {
-    font-size: 6vh;
-}
-
-.more-solas-1 {
-    border-bottom: 5px solid #3f3b3b;
-}
-
-.more-solas-2 {
-    color: #ffffff;
-    background-color: #242424;
-    border-bottom: 5px solid #d1cdcd;
-}
-
-.more-solas-3 {
-    border-bottom: 5px solid #3f3b3b;
-}
-
-.more-solas-4 {
-    color: #ffffff;
-    background-color: #242424;
-    border-bottom: 5px solid #d1cdcd;
-}
-
-
 /*Responsive*/
 
 @media (max-width: 800px) {
@@ -353,29 +265,6 @@ textarea {
         margin: 0 10px;
         padding: auto;
         flex-direction: column;
-    }
-    .more-solas-1,
-    .more-solas-2,
-    .more-solas-3,
-    .more-solas-4,
-    .more-solas-5 {
-        flex-direction: column;
-        padding: 5vh;
-    }
-    .more-solas-1 img,
-    .more-solas-2 img,
-    .more-solas-3 img,
-    .more-solas-4 img,
-    .more-solas-5 img {
-        margin-bottom: 4vh;
-        margin-top: 4vh;
-    }
-    .more-solas-1 p,
-    .more-solas-2 p,
-    .more-solas-3 p,
-    .more-solas-4 p,
-    .more-solas-5 p {
-        text-align: center;
     }
 }
 

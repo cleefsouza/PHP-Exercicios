@@ -15,7 +15,7 @@
             }else{
                 $pg = $_GET['pg'];
                 include_once("$pg.php");
-            }  
+            }
             include_once("pages/footer.php");
         ?>
     </body>

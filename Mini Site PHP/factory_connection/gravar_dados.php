@@ -1,6 +1,5 @@
 <?php
-    include("conexao.php");
-
+    include_once("conexao.php");
     $fnome = $_POST["fnome"];
     $femail = $_POST["femail"];
     $fcomentario = $_POST["fcomentario"];
@@ -14,6 +13,8 @@
     if($fcomentario==""){
         $fcomentario = "Nenhum comentário adicionado!";
     }
-
+    
     mysqli_query($con, "insert into avaliacao (nome, email, comentario) values ('$fnome','$femail','$fcomentario')");
+    header("location:../index.php");
+    mysqli_close($con);
 ?>
