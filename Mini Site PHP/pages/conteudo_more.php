@@ -1,7 +1,7 @@
 <?php
     echo '<section class="flex-container more-solas">
     <div class="flex-container more-solas-1">
-    <img src="img/sola-scriptura.png" alt="Sola Scriptura">
+    <img src="../img/sola-scriptura.png" alt="Sola Scriptura">
 
     <p>
     <label>Sola Scriptura</label>
@@ -22,10 +22,10 @@
     </em>, único capaz de salvar a humanidade e o tema central da reforma protestante.
     </p>
 
-    <img src="img/solus-christus.png" alt="Sola Scriptura">
+    <img src="../img/solus-christus.png" alt="Solus Christus">
     </div>
     <div class="flex-container more-solas-3">
-    <img src="img/sola-gratia.png" alt="Sola Scriptura">
+    <img src="../img/sola-gratia.png" alt="Sola Gratia">
 
     <p>
     <label>Sola Gratia</label>
@@ -42,10 +42,10 @@
     reformada é sustentada.
     </p>
 
-    <img src="img/sola-fide.png" alt="Sola Scriptura">
+    <img src="../img/sola-fide.png" alt="Sola Scriptura">
     </div>
     <div class="flex-container more-solas-5">
-    <img src="img/soli-deo-gloria.png" alt="Sola Scriptura">
+    <img src="../img/soli-deo-gloria.png" alt="Soli Deo Gloria">
 
     <p>
     <label>Sole Deo Gloria</label>

@@ -43,7 +43,7 @@
     <img src="img/soli-deo-gloria.png" alt="Soli Deo Gloria">
     </div>
     </div>
-    <a href="pages/saiba_mais.php">Saiba Mais</a>
+    <a href="pages/more.php">Saiba Mais</a>
     </section>
 
     <section id="formulario" class="flex-container formulario">
