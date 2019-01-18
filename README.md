@@ -1,2 +1,2 @@
-# PHP Exercícios
-Exercícios com PHP - Disciplina: Programação Dinâmica para Web.
+# faculdade-dev-php
+ExercÃ­cios com PHP - Disciplina: ProgramaÃ§Ã£o DinÃ¢mica para Web.
